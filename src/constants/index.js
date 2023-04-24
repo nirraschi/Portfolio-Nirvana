@@ -149,7 +149,7 @@ import {
       date: "Abril 2023",
       points: [
         "Desarrollé este portafolio con React y Tailwind Css para los estilos, y utilice librerias y herramientas para el desarrollo 3D y las interacciónes como Three.Js",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    
         
       ],
     },
