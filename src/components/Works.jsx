@@ -64,7 +64,7 @@ const Works = () => {
     <>
 
     <motion.div variants="">
-      <p className={styles.sectionSubText}>My work</p>
+      <p className={styles.sectionSubText}>MIS TRABAJOS</p>
       <h2 className={styles.sectionHeadText}>Projects.</h2>
     </motion.div>
 
@@ -73,7 +73,7 @@ const Works = () => {
       variants={fadeIn("","",0.1, 1)}
       className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum adipisci quis porro aspernatur, rem iusto neque, expedita ratione voluptates modi omnis vitae, magnam enim incidunt. Facilis vel officiis iusto.
+        A continuación algunos de mis proyectos! Puedes ver las tecnologías empleadas y el código con el enlace directo al repositorio. Estoy trabajando en más proyectos que puedes ver en mi perfil de GitHub. Si tienes alguna pregunta o proyecto en mente, no dudes en ponerte en contacto conmigo.
       </motion.p>
 
     </div>

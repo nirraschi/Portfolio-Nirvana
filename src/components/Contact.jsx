@@ -70,7 +70,7 @@ const Contact = () => {
         <motion.div
         variants={slideIn('left',"tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
-          <p className={styles.sectionSubText}>Get in Touch</p>
+          <p className={styles.sectionSubText}>estemos en contacto</p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>
 
           <form action=""
@@ -80,46 +80,46 @@ const Contact = () => {
 
             <label htmlFor="" className='flex flex-col'>
               <span className='text-white font-medium mb-4'>
-                Your Name
+                Tu nombre
               </span>
               <input type="text"
               name = "name"
               value = {form.name}
               onChange={handleChange}
-              placeholder="What's your name?"
+              placeholder="Cómo es tu nombre?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium ' />
             </label>
 
             
             <label htmlFor="" className='flex flex-col'>
               <span className='text-white font-medium mb-4'>
-                Your Email
+                Tu mail
               </span>
               <input type="email"
               name = "email"
               value = {form.email}
               onChange={handleChange}
-              placeholder="What's your email?"
+              placeholder="Cómo es tu email?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium ' />
             </label>
 
             <label htmlFor="" className='flex flex-col'>
               <span className='text-white font-medium mb-4'>
-                Your Message
+                Tu mensaje
               </span>
               <input 
               rows={7}
               name = "message"
               value = {form.message}
               onChange={handleChange}
-              placeholder="What do you want to say?"
+              placeholder="Lo que quieras decirme"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium ' />
             </label>
 
             <button
             type='submit'
             className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl '>
-              {loading ? 'Sending...' : 'Send'}
+              {loading ? 'Enviando...' : 'Enviar'}
 
             </button>
 

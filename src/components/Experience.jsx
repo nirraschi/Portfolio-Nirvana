@@ -16,11 +16,13 @@ const ExperienceCard = ({ experience }) => (
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
     icon={
-      <div className='flex justify-center items-center w-full f-full'>
-        <img src={experience.icon} alt={experience.company_name}
-        className='w-[60%] h-[-60%] object-contain'  
-        />
-        </div>      
+      <div className='flex justify-center items-center w-full h-full'>
+      <img
+        src={experience.icon}
+        alt={experience.company_name}
+        className='w-[60%] h-[60%] object-contain'
+      />
+    </div>     
     }
 >
     <div>
@@ -46,7 +48,7 @@ const Experience = () => {
   return (
     <>
     <motion.div variants="">
-      <p className={styles.sectionSubText}>What I have done so far</p>
+      <p className={styles.sectionSubText}>EN QUÉ ESTUVE TRABAJANDO</p>
       <h2 className={styles.sectionHeadText}>Work Experience.</h2>
     </motion.div>
 

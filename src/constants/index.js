@@ -116,149 +116,136 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Proyecto Individual Henry",
+      company_name: "Soy Henry",
       icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      iconBg: "#1d1836",
+      date: "Dic 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Diseñando y desarrollando una aplicación web en react utilizando JavaScript, Redux, React, Express, PostgreSQL, HTML, CSS.",
+        "Una aplicación de comidas donde se renderizan cards con recetas de comida tomadas de una API pública, y se puede ordenar y filtrar según detalles.",
+        "Deploy",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "EcoSun: Proyecto Final Soy Henry",
+      company_name: "Soy Henry",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Feb 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "En este proyecto en el que trabajé en equipo, desarrollamos una aplicación web eCommerce utilizando JavaScript, Redux, React, Express, entre otras tecnologias.",
+        "Trabajé en el equipo de desarrollo Frontend",
+        "Realice el maquetado de la web",
+        "Implemente responsive design a la aplicación",
+        "Participé en revisiones de código frontend y brindando comentarios constructivos a los otros desarrolladores."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Mi Portafolio",
+      company_name: "Portafolio",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Abril 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Desarrollé este portafolio con React y Tailwind Css para los estilos, y utilice librerias y herramientas para el desarrollo 3D y las interacciónes como Three.Js",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Contenta de trabajar con Nirvana, impecable",
+      name: "Margarita Ruda",
+      designation: "Administrativa",
+      company: "Clinica dental",
+      image: "https://randomuser.me/api/portraits/women/13.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Muy creativa en sus trabajos, diseños de calidad y esteticamente muy lindos! muy responsable",
+      name: "Martín",
+      designation: "",
+      company: "",
+      image: "https://randomuser.me/api/portraits/men/10.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "Desarrollo de web en wordpress impecable y rápido. Recomendable",
+      name: "Marisa Wangule",
       designation: "CTO",
       company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: "https://randomuser.me/api/portraits/women/12.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Green Kitchen: Soy Henry",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Es una aplicación de comidas donde se renderizan tarjetas con recetas de comida tomadas de una API pública, y se puede ordenar y filtrar según tipos de dietas y otros detalles.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/nirraschi/ProyectoIndividual-Foods",
     },
     {
-      name: "Job IT",
+      name: "EcoSun: Henry Proyecto Final",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Aplicación web eCommerce desarrollada en un equipo de 8 integrantes utilizando Javascript, React, Node.js, Redux, Express, Bootstrap y CSS Puro entre otras tecnologías. Todas las funcionalidades.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "NodeJS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/aliaz9/frontend-pf/",
     },
     {
-      name: "Trip Guide",
+      name: "Mi Portafolio",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Este portafolio fue desarrollado con react, tailwindcss para los estilos y con librerías como three.js para las animaciones 3d.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "threeJS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "TailwindCSS",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/nirraschi/Portfolio-Nirvana",
     },
   ];
   
