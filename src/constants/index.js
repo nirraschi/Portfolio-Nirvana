@@ -18,25 +18,31 @@ import {
     meta,
     starbucks,
     tesla,
-    shopify,
+    code,
+    code2,
+    censys,
+
     carrent,
     jobit,
     tripguide,
     threejs,
+    shopify,
+    productos
+
   } from "../assets";
   
   export const navLinks = [
     {
-      id: "about",
-      title: "About",
+      id: "sobremi",
+      title: "Sobre mi",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "experiencia",
+      title: "Experiencias",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Contacto",
     },
   ];
   
@@ -46,7 +52,7 @@ import {
       icon: web,
     },
     {
-      title: "Backend Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -54,7 +60,7 @@ import {
       icon: backend,
     },
     {
-      title: "Graphic Design",
+      title: "UI/UX Enthusiast",
       icon: creator,
     },
   ];
@@ -142,6 +148,17 @@ import {
       ],
     },
     {
+      title: "Soluciones de Software con IA para negocios",
+      company_name: "Productos-AI: Pasantía",
+      icon: productos,
+      iconBg: "#E6DEDD",
+      date: "Feb 2023",
+      points: [
+        "Trabajé en un equipo SCRUM, en área de desarrollo frontend, creando componentes completos reutilizables, ayudando así a cumplir con el gran objetivo de sacar exitosamente la primera versión del producto.",
+        "Integración de servicios de inteligencia artificial utilizando JavaScript y TypeScript. Diseño Frontend utilizando TailwindCSS y CSS",
+      ],
+    },
+    {
       title: "Mi Portafolio",
       company_name: "Portafolio",
       icon: shopify,
@@ -153,33 +170,64 @@ import {
         
       ],
     },
+    {
+      title: "App de Retrospectivas",
+      company_name: "App",
+      icon: code,
+      iconBg: "#383E56",
+      date: "Abril 2024",
+      points: [
+        "Aplicación simple desarrollada en TypeScript para gestionar retrospectivas de equipos ágil.",
+    
+        
+      ],
+    },
+    {
+      title: "Proyectos Personales",
+      company_name: "Portafolio",
+      icon: code2,
+      iconBg: "#383E56",
+      date: "Abril 2024",
+      points: [
+        "Sistema de Acreditaciónes en Eventos Mediante QR: Desarrollada con Js, React, Next.js y MongoDB Atlas. • Automatización con Puppeteer: Creación de scripts para automatizar tareas repetitivas en navegadores. • Desarrollo de proyectos personales aplicando mis conocimientos.",
+    
+        
+      ],
+    },
+    {
+      title: "QC / QA",
+      company_name: "Censys S.A",
+      icon: censys,
+      iconBg: "#383E56",
+      date: "Junio 2023 - Enero 2025",
+      points: [
+        "Participé en un equipo ágil con metodología Kanban, donde analicé problemas y diseñé casos de prueba efectivos para garantizar la calidad de los requerimientos.",
+        "Colaboré estrechamente con desarrolladores para garantizar que el producto cumpliera con los mas altos estándares de calidad.",
+        "Adquirí visión estratégica sobre cómo el frontend impacta en operaciones críticas de entidades bancarias.",
+        "Durante esta linda experiencia, adquirí conocimientos sobre procesos bancarios, normas financieras y términos contables, lo que me permitió comprender mejor el funcionamiento de las entidades bancarias y su integración con sistemas tecnológicos",
+    
+        
+      ],
+    },
 
   ];
   
   const testimonials = [
     {
       testimonial:
-        "Contenta de trabajar con Nirvana, impecable",
-      name: "Margarita Ruda",
-      designation: "Administrativa",
-      company: "Clinica dental",
-      image: "https://randomuser.me/api/portraits/women/13.jpg",
+        "Bootcamp Desarrollo FullStack (2022)",
+      company: "Henry",
+
     },
     {
       testimonial:
-        "Muy creativa en sus trabajos, diseños de calidad y esteticamente muy lindos! muy responsable",
-      name: "Martín",
-      designation: "",
-      company: "",
-      image: "https://randomuser.me/api/portraits/men/10.jpg",
+        "Curso TypeScript + Testing (2024)",
+      company: "Fundación Integrar",
     },
     {
       testimonial:
-        "Desarrollo de web en wordpress impecable y rápido. Recomendable",
-      name: "Marisa Wangule",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/12.jpg",
+        "Soy autodidacta, aprendiendo principalmente a través de recursos en línea, tutoriales y documentación. Me especialicé en el stack MERN.",
+      company: "Formación Autodidacta",
     },
   ];
   

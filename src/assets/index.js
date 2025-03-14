@@ -1,4 +1,4 @@
-import logo from "./icon.png";
+import foto from "./foto.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -23,6 +23,11 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
+import code from "./company/code.svg";
+import code2 from "./company/code2.svg";
+import censys from "./company/censys.png"
+import productos from "./company/productos.ico"
+
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
@@ -31,7 +36,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
+  foto,
   backend,
   creator,
   mobile,
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  code,
+  code2,
+  censys,
+  productos
+
 };

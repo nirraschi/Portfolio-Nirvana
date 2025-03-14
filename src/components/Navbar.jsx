@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { foto, menu, close } from '../assets';
 
 
 const Navbar = () => {
@@ -25,9 +25,9 @@ const Navbar = () => {
         }}
         >
 
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Nirvana&nbsp; <span className='sm:block hidden'>| FullStack Developer</span></p>
-           
+          <img src={foto} alt="foto" className='w-9 h-9 object-contain rounded-3xl hover:scale-[200%] transition-all mr-2' />
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Nirvana &nbsp; <span className='sm:block hidden'>| FullStack Developer</span></p>
+
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>

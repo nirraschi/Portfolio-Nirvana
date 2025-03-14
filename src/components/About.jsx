@@ -43,14 +43,14 @@ const About = () => {
 
     <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText}>Introducción</p>
-      <h2 className={styles.sectionHeadText}>Overview.</h2>
+      <h2 className={styles.sectionHeadText}>Sobre mi.</h2>
     </motion.div>
 
     <motion.p
     variants={fadeIn("", "", 0.1, 1)}
     className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-      ¡Hola! Bienvenido a mi portafolio donde comparto mi experiencia y proyectos de desarrollo. Me gusta trabajar con React, Node.js y diferentes tecnologías y herramientas para crear aplicaciones únicas y atractivas.
-Si tienes alguna pregunta o proyecto en mente, no dudes en ponerte en contacto conmigo. ¡Espero que disfrutes mi portafolio tanto como yo disfruté creándolo!
+      ¡Hola! Bienvenido a mi portafolio donde comparto mi experiencia y proyectos de desarrollo. Me gusta trabajar con Javascript, React y diferentes tecnologías y herramientas para crear aplicaciones únicas y atractivas.
+Si tienes alguna pregunta o proyecto en mente, no dudes en ponerte en contacto conmigo. <br/> ¡Espero que disfrutes mi portafolio tanto como yo disfruté creándolo!
     </motion.p>
 
     <div className="mt-20 flex flex-wrap gap-10">
